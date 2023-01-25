@@ -1,0 +1,186 @@
+body{
+    font-family: 'League Spartan', sans-serif;
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+}
+h1{
+    color:hsl(300, 43%, 22%); 
+    padding:10% 15% 0 15%;  
+}
+.main-container{
+    display:grid;
+    width:350px;
+ margin:auto;
+ justify-content: center;
+}
+.container-1 p{
+    color:hsl(300, 43%, 22%);
+    padding:2% 0 2% 0;
+}
+.container-2
+{
+        display:grid;
+    gap:10px;
+}
+.rating
+{
+    border:1px solid transparent;
+    border-radius: 5px;
+    background-color:hsl(300, 24%, 96%);
+}
+.rating h3
+{
+    color:hsl(300, 43%, 22%);
+}
+.user
+{
+    
+    background-color: hsl(300, 43%, 22%);
+    color:hsl(0, 0%, 100%);
+      border:1px solid transparent;
+    border-radius: 5px;
+    /* grid-template-columns: auto auto; */
+    padding:7%;
+    text-align: left;
+}
+.container-3
+{
+    margin:40px auto 40px auto;
+    display:grid;
+    gap: 15px;
+}
+.image-column
+{
+      display:flex;
+      justify-items: space-evenly;
+}
+.image p{
+    color:hsl(333, 80%, 67%);
+}
+.star
+{
+    padding-top:10px;
+}
+.logo
+{
+    width:50px;
+    border-radius: 50%;
+}
+.image{
+        margin-top: 1.33em;
+            margin-right: 1.33rem;
+}
+.names p
+{
+    margin:0px;
+    padding:0px;
+     color:hsl(333, 80%, 67%);
+}
+.names h4{
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+   
+}
+.content
+{
+    line-height: 1.5;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  @media screen and (width>=600px)
+  {
+   .main-container{
+width: 1440px;
+display:grid;
+grid-template-columns: auto auto auto;
+margin:7% auto 5% auto;
+text-align: left;
+gap:20px;
+ }
+
+ .container-1
+ {
+    width:400px;
+    grid-column-start:1;
+    grid-row-start: 1;
+    /* padding-right:20%;
+    padding-left:15%;    */
+ }
+ h1
+ {
+    font-size: 50px;
+    padding:0;
+ }
+ .container-2
+ {
+    width:630px;
+    grid-column-start:2;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    left:100px;
+    top:20px;
+
+ }
+ .rating{
+    text-align: center;
+   height: 50px;
+   width:490px;
+  
+ }
+.star{
+    padding-top:3%; 
+    padding-right:2px;
+}
+ .rating-1
+ {
+    margin-top:20px;
+    grid-row-start: 1;
+ }
+ .rating-2
+ {
+    margin:0;
+    grid-row-start: 2;
+    position: relative;
+    left: 50px;
+ }
+ .rating-3
+ {
+    grid-row-start: 3;
+    position: relative;
+    left: 100px;
+ }
+ .star
+ {
+    float:left;
+ }
+ .container-3
+ {
+    width:1200px;
+    grid-column: 1/3;
+    grid-row-start:2;
+    display:grid;
+    grid-template-columns: auto auto auto;
+ }
+.user{
+width:330px;
+margin:0;
+padding:6%;
+}
+.user-2
+{
+    position: relative;
+    top:30px;
+}
+.user-3
+{
+    position: relative;
+    top:60px;
+}
+  }
